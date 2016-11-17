@@ -33,5 +33,6 @@
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     
 <plugin name="cordova-plugin-x-socialsharing" />
+   <plugin spec="https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git" source="git"/>
     
 </widget>
