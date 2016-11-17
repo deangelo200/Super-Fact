@@ -18,6 +18,9 @@
     <platform name="android">
         <preference name="android-minSdkVersion" value="14" />
         <allow-intent href="market:*" />
+        <feature name="SocialSharing">
+  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+</feature>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
