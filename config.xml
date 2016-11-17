@@ -32,5 +32,6 @@
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     
+<plugin name="cordova-plugin-x-socialsharing" />
     
 </widget>
