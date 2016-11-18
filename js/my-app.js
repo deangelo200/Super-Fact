@@ -64,3 +64,5 @@ var onError = function(msg) {
 function shareButton(){ 
 window.plugins.socialsharing.shareWithOptions(options, onSuccess, onError);
 }
+
+
