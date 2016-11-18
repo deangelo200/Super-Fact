@@ -62,7 +62,8 @@ var onError = function(msg) {
 }
  
 function shareButton(){ 
-window.plugins.socialsharing.shareWithOptions(options, onSuccess, onError);
+window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'https://www.google.nl/images/srpr/logo4w.png', 'http://www.x-services.nl');
+
 }
 
 
