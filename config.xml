@@ -19,8 +19,8 @@
         <preference name="android-minSdkVersion" value="14" />
         <allow-intent href="market:*" />
         <feature name="SocialSharing">
-  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
-</feature>
+      <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+        </feature>
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
@@ -32,4 +32,5 @@
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     <plugin name="cordova-plugin-x-socialsharing" />
+     <plugin name="cordova-plugin-x-socialsharing" source="npm" />
 </widget>
