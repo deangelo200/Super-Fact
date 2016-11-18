@@ -32,5 +32,5 @@
     <plugin name="cordova-plugin-console" spec="~1.0.1" />
     <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
     <plugin name="cordova-plugin-x-socialsharing" />
-     <plugin name="cordova-plugin-x-socialsharing" source="npm" />
+<gap:plugin name="cordova-plugin-socialsharing" source="npm" version="4.3.81" />
 </widget>
